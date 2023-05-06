@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Todo list</title>
+</head>
+<body>
+    <main class="wrapper">
+        <div id="myDIV" class="header"> 
+            <h1>Today task list</h1>
+            <div class="input_container">
+                <input type="text" id="myInput" placeholder="What are you planning today?">
+                <span onclick="newElement()" class="addBtn">
+                    Add task
+                </span>
+            </div>
+        </div>       
+        <ul id="myUL">
+            <li>Clean my room</li>
+            <li>Go shopping</li>
+            <li>Search some film to watch</li>
+        </ul>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
